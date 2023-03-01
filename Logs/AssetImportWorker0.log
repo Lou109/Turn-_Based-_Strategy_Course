@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53078
+54233
 Successfully changed project path to: /Users/louisecollins/Repos/Unity2D/Turn_Based_Strategy_Course/Turn Based Strategy Course
 /Users/louisecollins/Repos/Unity2D/Turn_Based_Strategy_Course/Turn Based Strategy Course
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/louisecollins/Repos/Unity2D/Turn_Ba
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 170.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 108.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.20f1 (01d83b40d570)
 [Subsystems] Discovering subsystems at path /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,47 +69,215 @@ Initialize mono
 Mono path[0] = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56910
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.033068 seconds.
+Registered in 0.020473 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.468 seconds
+- Completed reload, in  1.034 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1582ms)
-		BeginReloadAssembly (644ms)
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (278ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (553ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (317ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-				TypeCache.Initialize (150ms)
-					TypeCache.ScanAssembly (148ms)
+			SetupTypeCache (149ms)
+				TypeCache.Initialize (149ms)
+					TypeCache.ScanAssembly (147ms)
 				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (502ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (123ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (106ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.107678 seconds.
+Registered in 0.003254 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/louisecollins/Repos/Unity2D/Turn_Based_Strategy_Course/Turn Based Strategy Course/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/louisecollins/Repos/Unity2D/Turn_Based_Strategy_Course/Turn Based Strategy Course/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2620ms)
+		BeginReloadAssembly (394ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2089ms)
+			LoadAssemblies (1073ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+				TypeCache.Initialize (326ms)
+					TypeCache.ScanAssembly (323ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (802ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2022.1.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (353.5 KB). Loaded Objects now: 5537.
+Memory consumption went from 0.75 GB to 0.74 GB.
+Total: 4.251644 ms (FindLiveObjects: 0.505613 ms CreateObjectMapping: 0.533704 ms MarkObjects: 3.027334 ms  DeleteObjects: 0.184130 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29523.834728 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(7b7096e3c9b4b4eb5a28b25b68441b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(7b7096e3c9b4b4eb5a28b25b68441b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eeed910df04bb7e41e57ff7554fd38') in 0.026934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.713281 seconds.
+  path: Assets/Animations/firing rifle.fbx
+  artifactKey: Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/firing rifle.fbx using Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97233671f5bae0365aaa4bbcec003527') in 1.186778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Animations/strafe (2).fbx
+  artifactKey: Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/strafe (2).fbx using Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b8462ea1611118fe4c06ade1e936d5') in 0.009325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.162631 seconds.
+  path: Assets/Animations/firing rifle.fbx
+  artifactKey: Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/firing rifle.fbx using Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a747f2cabcb434fb64cac44faf7c9d') in 0.011370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.973821 seconds.
+  path: Assets/Animations/strafe.fbx
+  artifactKey: Guid(e008211aeb35140858ff3c59357338be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/strafe.fbx using Guid(e008211aeb35140858ff3c59357338be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b848e9cd66fbfecf74b1934aa6ac7268') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.105725 seconds.
+  path: Assets/Animations/firing rifle.fbx
+  artifactKey: Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/firing rifle.fbx using Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e13cffca936486f13df50bf59b8d57') in 0.012213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.088447 seconds.
+  path: Assets/Animations/firing rifle.fbx
+  artifactKey: Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/firing rifle.fbx using Guid(ddef2bb680ca64fdc938765101337ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da52af9c73d88e2a4d92e7725a976d0') in 0.012417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.525428 seconds.
+  path: Assets/Animations/reloading.fbx
+  artifactKey: Guid(c6f66e54154fe4933af3f4b7d09ad53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/reloading.fbx using Guid(c6f66e54154fe4933af3f4b7d09ad53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849d37ab1b406c1f5ea5e3ae2dc7334d') in 0.012326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.102395 seconds.
+  path: Assets/Animations/reloading.fbx
+  artifactKey: Guid(c6f66e54154fe4933af3f4b7d09ad53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/reloading.fbx using Guid(c6f66e54154fe4933af3f4b7d09ad53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a66fd1a5b8a8a82f3d62be3f5d26c7') in 0.009003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.244372 seconds.
+  path: Assets/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(a3f69d167353141fdb10ccbfc674d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/rifle aiming idle.fbx using Guid(a3f69d167353141fdb10ccbfc674d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0487174a44b5bcfe59100832fbbb55ee') in 0.011908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.801020 seconds.
+  path: Assets/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(a3f69d167353141fdb10ccbfc674d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/rifle aiming idle.fbx using Guid(a3f69d167353141fdb10ccbfc674d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4993f4b5f8c4b2a752c2f67bd9e258') in 0.008649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.894715 seconds.
+  path: Assets/Animations/rifle run.fbx
+  artifactKey: Guid(5d2dfb29aa3274d189620f34c2f581db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/rifle run.fbx using Guid(5d2dfb29aa3274d189620f34c2f581db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b502b348ef18321f9b8a5fa9f7437c0a') in 0.012040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.729550 seconds.
+  path: Assets/Animations/rifle run.fbx
+  artifactKey: Guid(5d2dfb29aa3274d189620f34c2f581db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/rifle run.fbx using Guid(5d2dfb29aa3274d189620f34c2f581db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26f5aa5bb6d8dc9c7b9694c9d731b81') in 0.008804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.378119 seconds.
+  path: Assets/Animations/strafe (2).fbx
+  artifactKey: Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/strafe (2).fbx using Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f511a1071d8506cb252f67295b2192') in 0.011963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.285936 seconds.
+  path: Assets/Animations/strafe (2).fbx
+  artifactKey: Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/strafe (2).fbx using Guid(0b51aea7267584a90badd19bf82c5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdb47f509212e0e604867015f7668a') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.765040 seconds.
+  path: Assets/Animations/strafe.fbx
+  artifactKey: Guid(e008211aeb35140858ff3c59357338be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/strafe.fbx using Guid(e008211aeb35140858ff3c59357338be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f75052d5fdce475e175a6940ed2157a') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.193403 seconds.
+  path: Assets/Animations/walking.fbx
+  artifactKey: Guid(2972f2ecd409c470cb3917be802122b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/walking.fbx using Guid(2972f2ecd409c470cb3917be802122b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cffc3c6e96102413929c82ff3b1d11') in 0.011985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.246997 seconds.
+  path: Assets/Animations/walking.fbx
+  artifactKey: Guid(2972f2ecd409c470cb3917be802122b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/walking.fbx using Guid(2972f2ecd409c470cb3917be802122b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7a89751f35859271d3c047eb69d8ec') in 0.012205 seconds 
